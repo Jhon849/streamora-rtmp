@@ -1,0 +1,6 @@
+rtmp: yes
+hls: yes
+
+paths:
+  live:
+    source: publisher
