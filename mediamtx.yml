@@ -1,0 +1,13 @@
+rtmp:
+  enabled: true
+
+hls:
+  enabled: true
+  segmentCount: 3
+  segmentDuration: 2s
+  allowOrigin: "*"
+
+paths:
+  live:
+    source: publisher
+
